@@ -19,7 +19,7 @@ NSLayoutConstraint(item: box, attribute: .width, relatedBy: .equal, toItem: nil,
 NSLayoutConstraint(item: box, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 100).isActive = true
 ```
 
-*Woof* – that's a lot of parse. The same layout with Cully:
+*Woof* – that's a lot to parse. The same layout with Cully:
 
 ```swift
 // With Cully
