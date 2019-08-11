@@ -1,4 +1,4 @@
-# 🏡 Cully
+# 🏡 Cully [![Build Status](https://travis-ci.org/staykids/Cully.svg?branch=master)](https://travis-ci.org/staykids/Cully)
 A Swift-based DSL to make Auto Layout friendlier.
 
 ## Motivation
