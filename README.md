@@ -90,12 +90,12 @@ myView.constraints(activate: topConstraint)
 
 ## Installation
 
-Give [Carthage](https://github.com/Carthage/Carthage) a try, how 'bout?
+Cully supports the Swift Package Manager in Xcode 11. Or give [Carthage](https://github.com/Carthage/Carthage) a try, how 'bout?
 
 1. Add the following to your `Cartfile`:
 
     ```swift
-    github "staykids/Cully" "1.0"
+    github "staykids/Cully" "1.0.1"
     ```
 
 2. Follow the [Carthage instructions for adding a framework to your project](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application). 
