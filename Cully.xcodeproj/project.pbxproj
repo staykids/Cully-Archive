@@ -35,6 +35,7 @@
 		0008D11622F6E05E006D1408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0008D12322F6E1AB006D1408 /* UIView+Cully.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Cully.swift"; sourceTree = "<group>"; };
 		003609B422F7B9E00080D870 /* Collection+Cully.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Cully.swift"; sourceTree = "<group>"; };
+		007BA7DE2311FBCD00592697 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		0008D10822F6E05E006D1408 /* Cully */ = {
 			isa = PBXGroup;
 			children = (
+				007BA7DE2311FBCD00592697 /* Package.swift */,
 				0008D12222F6E197006D1408 /* Source */,
 				0008D12122F6E15A006D1408 /* Resources */,
 			);
@@ -385,6 +387,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.staykids.Cully;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -412,6 +415,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.staykids.Cully;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
